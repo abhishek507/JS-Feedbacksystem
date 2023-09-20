@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="feed-container">
+        <h1 class="title" id="title">Please give us Feedback 🤔</h1>
+        <input type="number" placeholder="enter the rating" id="ratings">
+        <textarea id="review" placeholder="enter the review" rows="5" cols=""></textarea>
+        <button class="btn" onclick="feedback()">submit</button>
+
+        <div class="filter">
+            <button class="filter-btn"onclick='rating5()'>rating5</button>
+            <button class="filter-btn"onclick='rating4()'>rating4</button>
+            <button class="filter-btn"onclick='rating3()'>rating3</button>
+            <button class="filter-btn"onclick='rating2()'>rating2</button>
+            <button class="filter-btn"onclick='rating1()'>rating1</button>
+            <button class="filter-btn"onclick='rating0()'>rating0</button>
+        </div>
+    </div>
+
+    <div class="form-container" id="feedbackContainer">
+        <div class="reviews" id="content">
+            <p >check ratings here 😁</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

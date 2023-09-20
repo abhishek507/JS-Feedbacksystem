@@ -1,0 +1,86 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image:url('http://source.unsplash.com/1600x800/?mountain');
+
+    
+}
+
+.title{
+    text-align: center;
+}
+
+
+.feed-container {
+    width: 500px;
+    margin: 50px auto;
+}
+input,textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: italic;
+    background-color:rgb(247, 247, 247);
+
+
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 6px rgb(3, 202, 251);
+}
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 6px rgb(3, 202, 251);
+}
+
+.btn:focus{
+    outline: none;
+    box-shadow: 0 0 6px rgb(3, 202, 251);
+}
+.btn{
+    width: 100%;
+    border-radius: 10px;
+    border:1px solid  black;
+    padding: 16px ;
+    box-sizing: border-box;
+    color:white ;
+    background-color:black ;
+
+}
+
+.filter{
+    display: flex;
+    margin-top: 10px;
+}
+
+.filter-btn{
+    padding: 6px 12px;
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    flex-grow:  1;
+}
+
+.filter-btn:focus{
+    outline: none;
+    box-shadow: 0 0 6px rgb(3, 202, 251);
+}
+
+.form-container{
+    width: 500px;
+    margin: 50px auto;
+}
+
+.reviews{
+    background-color: white;
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-top: 5px;
+}
